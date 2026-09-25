@@ -38,41 +38,41 @@ const techs = [
 ];
 
 
-const experiences = [
-  {
-    company: "Qmize, Gaya, India",
-    role: "MERN Stack Developer (Intern)",
-    date: "45 days, Jan 2026",
-    description:
-      "At Digintra.com, I created multi-country Bulk SMS pages and developed a custom admin panel (frontend & backend) for SEO meta data management.",
-    skills: ["React", "JavaScript", "HTML", "CSS", "Motion Design", "Tailwind CSS", "MongoDB", "Node.js", "Express", "MERN Stack", "RESTful API", "PHP", "MySQL","Redux"],
-  },
-  {
-    company: "Wilson Wings, Bangalore, India",
-    role: "Full Stack Developer (Intern)",
-    date: "45 days, June 2025",
-    description:
-      "Worked as a Full Stack developer at Dragon Sino Group. Created fully functional MERN Stack Web Application (Travlo) with responsive behavior, smooth touch UI, and API Integration.",
-    skills: [
-      "React.js",
-      "Tailwind CSS",
-      "Node.js",
-      "Express",
-      "API Integration",
-      "MERN Stack",
-      "RESTful API",
-      "PHP",
-      "MySQL",
-    ],
-  },
-];
+// const experiences = [
+//   {
+//     company: "Qmize, Gaya, India",
+//     role: "MERN Stack Developer (Intern)",
+//     date: "45 days, Jan 2026",
+//     description:
+//       "At Digintra.com, I created multi-country Bulk SMS pages and developed a custom admin panel (frontend & backend) for SEO meta data management.",
+//     skills: ["React", "JavaScript", "HTML", "CSS", "Motion Design", "Tailwind CSS", "MongoDB", "Node.js", "Express", "MERN Stack", "RESTful API", "PHP", "MySQL","Redux"],
+//   },
+//   {
+//     company: "Wilson Wings, Bangalore, India",
+//     role: "Full Stack Developer (Intern)",
+//     date: "45 days, June 2025",
+//     description:
+//       "Worked as a Full Stack developer at Dragon Sino Group. Created fully functional MERN Stack Web Application (Travlo) with responsive behavior, smooth touch UI, and API Integration.",
+//     skills: [
+//       "React.js",
+//       "Tailwind CSS",
+//       "Node.js",
+//       "Express",
+//       "API Integration",
+//       "MERN Stack",
+//       "RESTful API",
+//       "PHP",
+//       "MySQL",
+//     ],
+//   },
+// ];
 
 const projects = [
   
   {
-    title: "Chatify - Real-Time Chat Application",
+    title: "Swap_nest Online product exchange system",
     description:
-      "A real-time chat application built with the MERN stack. It features user authentication, private messaging, group chats, and a sleek, responsive design. The app uses Socket.io for instant message delivery and MongoDB for storing chat history.",
+      "SwapNest is a MERN-based barter platform where users can list products, send exchange requests, manage requests, and connect with other users for seamless product swapping..",
     image:
       "/app.png",
     tags: [
@@ -81,30 +81,24 @@ const projects = [
       "Node.js",
       "Express",
       "MongoDB",
-      "Socket.io",
       "zustand",
       "Resend",
+      "JWT Authentication"
     ],
     link: "https://chatify-vcl0.onrender.com/",
   },
   {
-  title: "Bihar Railway FIR Management System",
+  title: "real Time online weather app",
   description:
-    "A comprehensive Railway FIR Management System developed for Bihar Railway Police to streamline FIR registration, case tracking, accused management, bail management, and report generation. The platform provides role-based access, advanced search functionality, real-time dashboards, and secure data management to improve efficiency and transparency in criminal case handling.",
-  image: "/FIR.png",
+    "Developed a responsive weather app using React.js that fetches real-time weather data through an API and displays temperature, location, and weather conditions.",
+  image: "/weather.png",
   tags: [
     "React.js",
     "Node.js",
     "Express.js",
     "MongoDB",
     "Tailwind CSS",
-    "JWT Authentication",
-    "Role-Based Access",
-    "FIR Management",
-    "Case Tracking",
-    "Dashboard Analytics",
-    "CSV Upload",
-    "REST API"
+
   ],
   link: "https://fir-managment-system-two.vercel.app",
 }
@@ -207,26 +201,26 @@ Message: ${message}`;
 
     <Helmet>
   {/* Basic SEO */}
-  <title>Zeyaul Haque | MERN Stack Developer</title>
+  <title>Mohd Zakariya | MERN Stack Developer</title>
   <meta
     name="description"
     content="MERN Stack Developer specializing in React, Node.js, Express, and MongoDB. Passionate about building fast, scalable web applications."
   />
   <meta
     name="keywords"
-    content="Zeyaul Haque, MERN Developer, React Developer, Node.js Developer, Full Stack Developer"
+    content="Mohd Zakariya, MERN Developer, React Developer, Node.js Developer, Full Stack Developer"
   />
-  <meta name="author" content="Zeyaul Haque" />
+  <meta name="author" content="Mohd Zakariya" />
 
   {/* Canonical */}
   <link rel="canonical" href="https://zeyaulhaque.in/" />
 
   {/* Open Graph – LinkedIn / WhatsApp */}
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Zeyaul Haque | MERN Stack Developer" />
+  <meta property="og:title" content="Mohd Zakariya | MERN Stack Developer" />
   <meta
     property="og:description"
-    content="Portfolio of Zeyaul Haque – MERN Stack Developer skilled in React, Node.js, Express, and MongoDB."
+    content="Portfolio of Mohd Zakariya – MERN Stack Developer skilled in React, Node.js, Express, and MongoDB."
   />
   <meta property="og:url" content="https://zeyaulhaque.in/" />
   <meta property="og:image" content="https://zeyaulhaque.in/og-image.png" />
@@ -239,7 +233,7 @@ Message: ${message}`;
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Zeyaul Haque",
+      name: "Mohd Zakariya",
       jobTitle: "MERN Stack Developer",
       url: "https://zeyaulhaque.in",
       sameAs: [
@@ -323,7 +317,7 @@ Message: ${message}`;
     >
       Hi I'm{" "}
       <span className="text-pink-600 dark:text-pink-500">
-        Zeyaul Haque
+        Mohd Zakariya
       </span>{" "}
       – MERN Stack Developer with Full-Stack Expertise.
     </motion.h1>
@@ -369,7 +363,7 @@ Message: ${message}`;
        <Link to="/projects" className="flex items-center gap-2">View Projects <ArrowRight  size={16} /> </Link>
       </button>
 
-      <a href="/Zeyaul_Haque_CV.pdf" target="_blank" rel="noopener noreferrer">
+      <a href="/Mohd_Zakariya_CV.pdf" target="_blank" rel="noopener noreferrer">
         <button
           className="flex items-center gap-2 px-6 py-3 rounded-full
             border border-black/10 dark:border-white/10
@@ -436,7 +430,7 @@ Message: ${message}`;
 
         <div className="space-y-6 text-gray-600 dark:text-gray-400 leading-relaxed">
           <p>
-            My name is Zeyaul Haque, and I am a Frontend Engineer
+            My name is Mohd Zakariya, and I am a Frontend Engineer
             of real-world experience designing fast, usable, and SEO-friendly
             web applications. My specialty is crafting smooth-looking UIs with
             React.js, Tailwind CSS, UI Libraries and bringing things to
@@ -514,97 +508,7 @@ Message: ${message}`;
 
 
     {/* experience section */}
-     <section
-  id="experience"
-  className="py-24 bg-white dark:bg-zinc-950 transition-colors"
->
-  <div className="max-w-5xl mx-auto px-6">
-
-    {/* Heading */}
-    <motion.div
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6 }}
-      className="text-center mb-20"
-    >
-      <h2 className="text-4xl font-bold text-gray-900 dark:text-white">
-        My Experience
-      </h2>
-      <p className="text-gray-500 dark:text-gray-400 mt-3">
-        Professional experience that I have accumulated over several years.
-      </p>
-    </motion.div>
-
-    {/* Timeline Wrapper */}
-    <div className="relative">
-
-      {/* Vertical Line */}
-      <div className="absolute left-8 top-2 h-full w-px bg-gray-200 dark:bg-zinc-700" />
-
-      <div className="space-y-20">
-        {experiences.map((exp, i) => (
-          <motion.div
-            key={i}
-            initial={{ opacity: 0, y: 60 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: i * 0.15 }}
-            className="relative pl-20"
-          >
-            {/* Dot */}
-            <span className="absolute left-8 top-2 -translate-x-1/2 w-4 h-4 rounded-full 
-              bg-white dark:bg-zinc-950 
-              border-2 border-black dark:border-white" 
-            />
-
-            {/* Content */}
-            <div>
-              <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-full border 
-                  border-gray-300 dark:border-zinc-700 
-                  flex items-center justify-center
-                  text-gray-900 dark:text-white"
-                >
-                  <Briefcase size={18} />
-                </div>
-                <h3 className="font-semibold text-lg text-gray-900 dark:text-white">
-                  {exp.company}
-                </h3>
-              </div>
-
-              <h4 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
-                {exp.role}
-              </h4>
-
-              <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-4">
-                <Calendar size={16} />
-                {exp.date}
-              </div>
-
-              <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
-                {exp.description}
-              </p>
-
-              <div className="flex flex-wrap gap-2">
-                {exp.skills.map((skill, idx) => (
-                  <span
-                    key={idx}
-                    className="px-3 py-1 text-sm border rounded-full
-                      border-gray-300 dark:border-zinc-700
-                      text-gray-700 dark:text-gray-300"
-                  >
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </motion.div>
-        ))}
-      </div>
-    </div>
-  </div>
-    </section>
+    
 
 
     {/* projects section */}
@@ -937,7 +841,7 @@ Message: ${message}`;
             href="mailto:zeyaul445@gmail.com"
             className="underline underline-offset-4 hover:text-black dark:hover:text-white"
           >
-            zeyaul445@gmail.com
+            mohdzakariya2300@gmail.com
           </a>{" "}
           or through this form.
         </p>
@@ -1034,7 +938,7 @@ Message: ${message}`;
 
       {/* Footer */}
       <p className="mt-20 text-center text-sm text-gray-500">
-        © 2026 Zeyaul Haque. All rights reserved.
+        © 2026 Mohd Zakariya. All rights reserved.
       </p>
     </section>
 

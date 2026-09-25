@@ -4,22 +4,22 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
-    title: "Chatify - Real-Time Chat",
+    title: "Swap_Nest -Online Product Exchange system",
     description:
-      "A real-time chat application built with the MERN stack featuring user authentication, private messaging, group chats, and a sleek responsive design using Socket.io for instant message delivery.",
+      "SwapNest is a MERN-based barter platform where users can list products, send exchange requests, manage requests, and connect with other users for seamless product swapping.",
     image: "/app.png",
-    tags: ["React.js", "Node.js", "Express", "MongoDB", "Socket.io", "zustand", "Resend"],
-    link: "https://chatify-vcl0.onrender.com/",
-    github: "https://github.com/zeyaul98/chatify",
+    tags: ["React.js", "Node.js", "Express", "MongoDB", "zustand", "Resend"],
+    link: "swap-nest-sable.vercel.app/signup",
+    github: "https://github.com/mzack321/SwapNest.git",
     cardBg: "bg-blue-50",
     accentColor: "text-blue-600",
     emoji: "💬",
   },
   {
     id: 2,
-    title: "Bihar Railway FIR Management System",
+    title: "real_Time weather app",
     description:
-      "A comprehensive Railway FIR Management System developed for Bihar Railway Police to streamline FIR registration, case tracking, accused management, bail management, and report generation. The platform provides role-based access, advanced search functionality, real-time dashboards, and secure data management to improve efficiency and transparency in criminal case handling.",
+      "Developed a responsive weather app using React.js that fetches real-time weather data through an API and displays temperature, location, and weather conditions.",
     image: "/FIR.png",
     tags: [
       "React.js",
@@ -35,8 +35,8 @@ const projects = [
     "CSV Upload",
     "REST API"
   ],
-  link: "https://fir-managment-system-two.vercel.app",
-  github: "https://github.com/zeyaul98/FIR-MANAGMENT-SYSTEM",
+  link: "https://sky-lense.netlify.app/",
+  github: "",
     cardBg: "bg-red-50",
     accentColor: "text-blue-600",
     emoji: "🚂",
@@ -58,37 +58,37 @@ const projects = [
     "Infinite Scroll",
     "Responsive UI",],
     link: "https://pixora-rosy.vercel.app/",
-    github: "https://github.com/zeyaul98/pixora",
+    github: "",
     cardBg: "bg-blue-50",
     accentColor: "text-blue-600",
     emoji: "🖼️",
   },
-  {
-    id: 4,
-    title: "CyberHub - Online Cafe",
-    description:
-      "A modern online cyber cafe platform where users can access digital services, explore government-related facilities, and easily connect for online form submissions and document services.",
-    image: "/cyberhub.png",
-    tags: ["React.js", "Tailwind CSS", "framer-motion", "contact-form", "Aceternity UI"],
-    link: "https://cyber-hub-gaya.vercel.app/",
-    github: "https://github.com/zeyaul98/CyberHub",
-    cardBg: "bg-green-50",
-    accentColor: "text-green-600",
-    emoji: "🖥️",
-  },
-  {
-    id: 5,
-    title: "MSG 24X7 - Whatsapp API Business Offer - FreeLancer",
-    description:
-      "Developed a modern freelancer business platform for WhatsApp API services with responsive design, smooth animations, and user-friendly sections for client engagement and service promotion.",
-    image: "/msg24x7.png",
-    tags: ["React.js", "Tailwind CSS", "framer-motion", "contact-form", "Aceternity UI"],
-    link: "https://msg-24x7-m72j-5nxveez3j-zeyaul-haques-projects.vercel.app/?",
-    github: "https://github.com/zeyaul98/MSG24x7",
-    cardBg: "bg-green-50",
-    accentColor: "text-green-600",
-    emoji: "🖥️",
-  },
+  // {
+  //   id: 4,
+  //   title: "CyberHub - Online Cafe",
+  //   description:
+  //     "A modern online cyber cafe platform where users can access digital services, explore government-related facilities, and easily connect for online form submissions and document services.",
+  //   image: "/cyberhub.png",
+  //   tags: ["React.js", "Tailwind CSS", "framer-motion", "contact-form", "Aceternity UI"],
+  //   link: "https://cyber-hub-gaya.vercel.app/",
+  //   github: "https://github.com/zeyaul98/CyberHub",
+  //   cardBg: "bg-green-50",
+  //   accentColor: "text-green-600",
+  //   emoji: "🖥️",
+  // },
+  // {
+  //   id: 5,
+  //   title: "MSG 24X7 - Whatsapp API Business Offer - FreeLancer",
+  //   description:
+  //     "Developed a modern freelancer business platform for WhatsApp API services with responsive design, smooth animations, and user-friendly sections for client engagement and service promotion.",
+  //   image: "/msg24x7.png",
+  //   tags: ["React.js", "Tailwind CSS", "framer-motion", "contact-form", "Aceternity UI"],
+  //   link: "https://msg-24x7-m72j-5nxveez3j-zeyaul-haques-projects.vercel.app/?",
+  //   github: "https://github.com/zeyaul98/MSG24x7",
+  //   cardBg: "bg-green-50",
+  //   accentColor: "text-green-600",
+  //   emoji: "🖥️",
+  // },
 ];
 
 // ── Icons ──
