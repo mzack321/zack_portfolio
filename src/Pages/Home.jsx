@@ -98,6 +98,7 @@ const projects = [
     "Express.js",
     "MongoDB",
     "Tailwind CSS",
+    "material UI"
 
   ],
   link: "https://fir-managment-system-two.vercel.app",

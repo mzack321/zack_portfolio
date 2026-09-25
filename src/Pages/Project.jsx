@@ -20,20 +20,13 @@ const projects = [
     title: "real_Time weather app",
     description:
       "Developed a responsive weather app using React.js that fetches real-time weather data through an API and displays temperature, location, and weather conditions.",
-    image: "/FIR.png",
+    image: "/weather.png",
     tags: [
       "React.js",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
     "Tailwind CSS",
-    "JWT Authentication",
-    "Role-Based Access",
-    "FIR Management",
-    "Case Tracking",
-    "Dashboard Analytics",
-    "CSV Upload",
-    "REST API"
+    "material UI",
+    "java Script",
+    "Css3"
   ],
   link: "https://sky-lense.netlify.app/",
   github: "",
