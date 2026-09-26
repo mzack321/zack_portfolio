@@ -29,7 +29,7 @@ const projects = [
     "Css3"
   ],
   link: "https://sky-lense.netlify.app/",
-  github: "",
+  github: "https://github.com/mzack321/weather-app.git",
     cardBg: "bg-red-50",
     accentColor: "text-blue-600",
     emoji: "🚂",

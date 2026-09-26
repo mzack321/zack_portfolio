@@ -85,7 +85,7 @@ const projects = [
       "Resend",
       "JWT Authentication"
     ],
-    link: "https://chatify-vcl0.onrender.com/",
+    link: "swap-nest-sable.vercel.app/signup",
   },
   {
   title: "real Time online weather app",
@@ -101,7 +101,7 @@ const projects = [
     "material UI"
 
   ],
-  link: "https://fir-managment-system-two.vercel.app",
+  link: "https://sky-lense.netlify.app/",
 }
 ];
 
@@ -180,8 +180,8 @@ const [index, setIndex] = useState(0);
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const phoneNumber = "919801140323"; 
-    const text = `Hello Zeyaul 👋%0A
+    const phoneNumber = "918303368358"; 
+    const text = `Hello Zakariya 👋%0A
 Name: ${name}%0A
 Email: ${email}%0A
 Message: ${message}`;
@@ -304,9 +304,9 @@ Message: ${message}`;
     </motion.div>
 
     {/* Location */}
-    <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
+    {/* <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
       Currently Intern in Qmize — open to relocate
-    </p>
+    </p> */}
 
     {/* Heading */}
     <motion.h1
@@ -384,10 +384,10 @@ Message: ${message}`;
   className="flex justify-center gap-4"
 >
   {[
-    { Icon: Linkedin, url: "https://www.linkedin.com/in/zeyaul-haque-6929b828a/" },
-    { Icon: Github, url: "https://github.com/zeyaul98" },
-    { Icon: Instagram, url: "https://instagram.com/zeyaul_98" },
-    { Icon: Twitter, url: "https://twitter.com/yourusername" },
+    { Icon: Linkedin, url: "https://www.linkedin.com/in/mohd-zakariya-dev/" },
+    { Icon: Github, url: "https://github.com/dashboard" },
+    { Icon: Instagram, url: "https://instagram.com/mr_zack__" },
+    // { Icon: Twitter, url: "https://twitter.com/yourusername" },
   ].map(({ Icon, url }, i) => (
     <a
       key={i}
@@ -616,25 +616,25 @@ Message: ${message}`;
           </section>
 
     {/* Testimonials Section */}
-     <section
+     {/* <section
       id="testimonials"
       className="py-32 px-4
         bg-gray-50 text-gray-900
         dark:bg-zinc-950 dark:text-white
         transition-colors duration-300"
-    >
+    > */}
       {/* Heading */}
-      <div className="max-w-5xl mx-auto text-center mb-16">
+      {/* <div className="max-w-5xl mx-auto text-center mb-16">
         <h2 className="text-4xl font-bold mb-3">
           Testimonials
         </h2>
         <p className="text-gray-600 dark:text-gray-400">
           What clients and colleagues say about my work
         </p>
-      </div>
+      </div> */}
 
       {/* Card */}
-      <div className="max-w-5xl mx-auto relative">
+      {/* <div className="max-w-5xl mx-auto relative">
        <AnimatePresence mode="wait">
   <motion.div
     key={index}
@@ -644,21 +644,19 @@ Message: ${message}`;
     transition={{ duration: 0.45 }}
     className="
       relative rounded-2xl p-10 text-center
-      transition-colors duration-300
+      transition-colors duration-300 */}
 
-      /* LIGHT MODE */
-      bg-white
+      {/* bg-white
       border border-black/10
-      shadow-lg
+      shadow-lg */}
 
-      /* DARK MODE */
-      dark:bg-zinc-950
+      {/* dark:bg-zinc-950
       dark:border-white/10
       dark:shadow-[0_0_0_1px_rgba(255,255,255,0.05)]
     "
-  >
+  > */}
     {/* ⭐ Stars */}
-    <div className="flex justify-center mb-6">
+    {/* <div className="flex justify-center mb-6">
       {[...Array(5)].map((_, i) => (
         <span
           key={i}
@@ -667,10 +665,10 @@ Message: ${message}`;
           ★
         </span>
       ))}
-    </div>
+    </div> */}
 
     {/* 💬 Quote */}
-    <p
+    {/* <p
       className="
         text-lg leading-relaxed
         max-w-3xl mx-auto mb-10
@@ -680,10 +678,10 @@ Message: ${message}`;
       "
     >
       “{testimonials[index].text}”
-    </p>
+    </p> */}
 
     {/* 👤 Profile */}
-    <div className="flex flex-col items-center gap-3">
+    {/* <div className="flex flex-col items-center gap-3">
       <img
         src={testimonials[index].img}
         alt={testimonials[index].name}
@@ -705,10 +703,10 @@ Message: ${message}`;
       <p className="text-xs text-gray-500 dark:text-gray-500">
         {testimonials[index].location}
       </p>
-    </div>
+    </div> */}
 
     {/* ⬅️➡️ Arrows */}
-    <button
+    {/* <button
       onClick={prev}
       className="
         absolute left-6 top-1/2 -translate-y-1/2
@@ -735,10 +733,10 @@ Message: ${message}`;
     </button>
   </motion.div>
 </AnimatePresence>
-
+ */}
 
         {/* Dots */}
-        <div className="flex justify-center mt-8 gap-3">
+        {/* <div className="flex justify-center mt-8 gap-3">
           {testimonials.map((_, i) => (
             <span
               key={i}
@@ -753,7 +751,7 @@ Message: ${message}`;
           ))}
         </div>
       </div>
-    </section>
+    </section> */}
 
       {/* FAQ Section */}
       <section
@@ -839,7 +837,7 @@ Message: ${message}`;
         <p className="text-gray-600 dark:text-gray-400">
           Please contact me directly at{" "}
           <a
-            href="mailto:zeyaul445@gmail.com"
+            href="mailto:mohdzakariya@gmail.com.com"
             className="underline underline-offset-4 hover:text-black dark:hover:text-white"
           >
             mohdzakariya2300@gmail.com

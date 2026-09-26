@@ -21,7 +21,7 @@ const Blog2 = () => {
           content="MERN stack tutorial, MongoDB Express React Node guide, what is MERN stack, full stack javascript"
         />
 
-        <meta name="author" content="Zeyaul Haque" />
+        <meta name="author" content="Mohd Zakariya" />
 
         <link
           rel="canonical"

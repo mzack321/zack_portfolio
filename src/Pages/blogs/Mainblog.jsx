@@ -62,7 +62,7 @@ const Mainblog = () => {
             />
 
             <h2 className="text-xl font-bold mt-4">
-              Zeyaul Haque
+              Mohd Zakariya
             </h2>
 
             <p className="text-gray-500 text-center text-sm mt-2 leading-relaxed">

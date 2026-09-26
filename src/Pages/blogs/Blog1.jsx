@@ -13,7 +13,7 @@ const Blog1 = () => {
 
         <Helmet>
   {/* Basic SEO */}
-  <title>Redis Setup & Caching in MERN Stack | Zeyaul Haque</title>
+  <title>Redis Setup & Caching in MERN Stack | Mohd Zakariya</title>
 
   <meta
     name="description"
@@ -25,11 +25,11 @@ const Blog1 = () => {
     content="Redis Docker Node.js tutorial, Redis caching MERN stack, ioredis setup guide, RedisInsight usage"
   />
 
-  <meta name="author" content="Zeyaul Haque" />
+  <meta name="author" content="Mohd Zakariya" />
 
   <link
     rel="canonical"
-    href="https://www.zeyaulhaque.in/blogs/1"
+    href="https://zack-portfolio-five.vercel.app"
   />
 
   {/* Open Graph (LinkedIn Compatible) */}
@@ -210,14 +210,14 @@ const Blog1 = () => {
               className="w-24 h-24 rounded-full object-cover shadow-md mb-4"
             />
 
-            <h3 className="text-lg font-bold">Zeyaul Haque</h3>
+            <h3 className="text-lg font-bold">Mohd Zakariya</h3>
 
             <p className="text-gray-500 text-sm mt-2 leading-relaxed">
               MERN Stack Developer passionate about scalable backend systems.
             </p>
 
             <a
-              href="https://www.zeyaulhaque.in/"
+              href="https://zack-portfolio-five.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-block px-4 py-2 bg-blue-50 text-blue-600 rounded-lg font-medium hover:bg-blue-100 transition"
