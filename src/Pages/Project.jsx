@@ -9,7 +9,7 @@ const projects = [
       "SwapNest is a MERN-based barter platform where users can list products, send exchange requests, manage requests, and connect with other users for seamless product swapping.",
     image: "/app.png",
     tags: ["React.js", "Node.js", "Express", "MongoDB", "zustand", "Resend"],
-    link: "swap-nest-sable.vercel.app/signup",
+    link: "https://swap-nest-sable.vercel.app/",
     github: "https://github.com/mzack321/SwapNest.git",
     cardBg: "bg-blue-50",
     accentColor: "text-blue-600",

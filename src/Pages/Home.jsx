@@ -85,7 +85,7 @@ const projects = [
       "Resend",
       "JWT Authentication"
     ],
-    link: "swap-nest-sable.vercel.app/signup",
+    link: "https://swap-nest-sable.vercel.app/",
   },
   {
   title: "real Time online weather app",
@@ -238,7 +238,7 @@ Message: ${message}`;
       jobTitle: "MERN Stack Developer",
       url: "https://zeyaulhaque.in",
       sameAs: [
-        "https://github.com/zeyaul98",
+        "https://https://github.com/mzack321",
         "https://www.linkedin.com/in/zeyaul-haque-6929b828a/"
       ]
     })}
